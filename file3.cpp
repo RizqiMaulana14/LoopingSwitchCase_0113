@@ -30,6 +30,10 @@ int main(){
                 break;
             case 2 :
                 cout << "Menghitung Luas Lingkaran " << endl;
+                cout << "Masukkan Jari - Jari = ";
+                cin >> jejari;
+                cout << "Luas Lingkaran = "
+                << luasLingkaran(jejari) << endl;
                 break;
             case 3 :
                 break;
