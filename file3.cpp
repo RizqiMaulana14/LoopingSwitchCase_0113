@@ -22,6 +22,11 @@ int main(){
         switch(pilihan){
             case 1 :
                 cout << "Menghitung Luas Persegi Panjang" << endl;
+                cout << "Masukkan Panjang = ";
+                cin >> panjang;
+                cout << "Masukkan Lebar = ";
+                cin >> lebar;
+                cout << "Luas Persegi Panjang = " << luasPersegiPanjang(panjang, lebar) << endl;
                 break;
             case 2 :
                 cout << "Menghitung Luas Lingkaran " << endl;
